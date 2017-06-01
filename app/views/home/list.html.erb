@@ -1,0 +1,6 @@
+
+<% @posts.each do |post| %>
+ <a href="/home/show/<%=post.id%>"><%= post.title %></a> <hr>
+<% end %>
+
+<a href="/home/index">새 글 쓰기</a>
